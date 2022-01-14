@@ -1,1 +1,1 @@
-# birthday-app
+Birthday app - приложение-поздравлялка с Днем рождения для vk.com
