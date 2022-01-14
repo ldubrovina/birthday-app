@@ -23,18 +23,17 @@
       вручную разместить в группе <br /><br />
       <b>Вариант Б:</b> сразу разместить в группе (требуется подтверждение)
       <br />введите id группы:<input id="gr_id2" value="128570542" width="50" />
-      <br />и время публикации (будет отложенная запись)
+      <br />и время публикации (будет отоженная запись)
       <input
         id="datetime"
         type="datetime-local"
-        value="2022-01-15T09:00"
+        value="2021-12-28T08:30"
       /><br />
       <input
         type="button"
         onclick="wallPost(document.getElementById('gr_id2').value)"
         value="Разместить"
-      />
-      <br /><br />
+      /><br /><br />
       <script>
         // ставим завтрашнее число
         var now = new Date();
@@ -299,8 +298,8 @@
         .toISOString()
         .slice(0, -1);
       var dtlInput = document.querySelector('input[type="datetime-local"]');
-      var my0830 = localISOTime.slice(0, 11) + "09:00"; // ставим время 9:00
-      dtlInput.value = my0900;
+      var my0830 = localISOTime.slice(0, 11) + "08:30"; // ставим время 8:30
+      dtlInput.value = my0830;
     </script>
   </body>
 </html>
